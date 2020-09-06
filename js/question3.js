@@ -9,14 +9,14 @@ const id = params.get("id");
 console.log(id);
 
 
-const url2 = "https://api.rawg.io/api/games/" + id;
+const url = "https://api.rawg.io/api/games/" + id;
 
-console.log(url2);
+console.log(url);
 
 async function gamesApi() {
 
   try {
-    const response = await fetch(url2);
+    const response = await fetch(url);
     const details = await response.json();
 
     console.log(details);
