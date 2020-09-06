@@ -1,0 +1,33 @@
+.error {
+  color: red;
+  display: none;
+}
+
+.games-container {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.card {
+  width: 400px;
+  height: 300px;
+  border: 2px solid darkorange;
+  text-align: center;
+}
+
+.image {
+  width: 80%;
+  height: 60%;
+  border-radius: 50%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.results {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
